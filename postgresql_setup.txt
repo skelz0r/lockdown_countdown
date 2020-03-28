@@ -1,0 +1,4 @@
+CREATE ROLE lockdown_coundown SUPERUSER LOGIN ;
+
+CREATE DATABASE lockdown_coundown_development WITH OWNER lockdown_coundown;
+CREATE DATABASE lockdown_coundown_test WITH OWNER lockdown_coundown;

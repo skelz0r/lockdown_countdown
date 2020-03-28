@@ -1,24 +1,15 @@
-# README
+# Lockdown Countdown
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+* ruby 2.6.5
+* postgresql 12
 
-* Ruby version
+```sh
+psql -f postgresql_setup.txt
 
-* System dependencies
+bundle install
+yarn install
+rails db:create
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
